@@ -1,0 +1,44 @@
+body{
+
+      background-image: url('images/bg.jpg');
+      background-size: cover;
+      color: white;
+      text-align: center;
+
+
+}
+h1 { color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+     letter-spacing:1px;
+     text-align:center;
+      position: relative;
+      padding: 20px 200px ;
+      background-color: rgba(0, 0, 0, 0.3);
+  }
+
+.btn{
+    width: 200px;
+    margin-top: 10px;
+
+}
+
+.arrival-card input[type="datetime-local"] {
+  width: 100%;
+}
+
+.airline-card select {
+  width: 100%;
+}
+
+.cont {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  border-radius: 10px;
+}
+
